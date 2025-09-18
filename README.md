@@ -29,12 +29,13 @@ npm install
 
 Debes crear un archivo .env en la raíz de uptask_backend con las siguientes variables:
 ```bash
-PORT=tu_puerto
-MONGO_URI=tu_url_de_mongodb
-JWT_SECRET=tu_secreto_jwt
-FRONTEND_URL=tu_urk_frontend
-EMAIL_USER=tu_correo@example.com
-EMAIL_PASS=tu_password
+DATABASE_URL = tu_url_de_mongodb
+FRONTEND_URL = tu_url_frontend
+SMT_HOST=tu_host_de_correo
+SMT_PORT=tu_puerto
+SMT_USER=tu_user
+SMT_PASS=tu_password
+JWT_SECRET=tu_palabra_secreta
 ````
 
 ## 📂 Estructura del proyecto
